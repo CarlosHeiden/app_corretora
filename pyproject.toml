@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "app-corretora"
+version = "0.1.0"
+description = "trabalho academico com Djando,DRF, Produtos de um corretora"
+authors = ["CarlosHeiden <carlos.heiden@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.7"
+djangorestframework = "^3.14.0"
+drf-spectacular = "^0.26.5"
+markdown = "^3.5.1"
+django-filter = "^23.3"
+djangorestframework-simplejwt = "^5.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
